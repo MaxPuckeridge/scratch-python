@@ -7,10 +7,10 @@
 def make_change(denominations, C):
     """ Returns an array of the change needed to make C from the set of possible denominations.
         E.g.,
-          makeChange([1, 5, 10, 17] and 34)
+          make_change([1, 5, 10, 17], 34)
           >> [17, 17]
 
-          makeChange([1, 5, 10, 17] and 33)
+          make_change([1, 5, 10, 17], 33)
           >> [1, 5, 10, 17]
     """
 
